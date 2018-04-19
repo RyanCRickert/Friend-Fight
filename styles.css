@@ -1,0 +1,224 @@
+* {
+	box-sizing: border-box;
+}
+
+strong {
+	color: green;
+}
+
+.dodge {
+	color: lightblue;
+}
+
+.critical {
+	color: red;
+}
+
+#nav-list a:hover {
+	background-color: lightblue;
+}
+.navbar-brand {
+	font-size: 1.3em;
+}
+
+.specifics {
+	height: 250px;
+	background-color: #2C3539;
+	padding: 0 20px;
+	margin-bottom: 20px;
+	position: relative;
+	border-radius: 5px;
+}
+
+.contestants {
+	margin: 0 20px;
+	height: 540px;
+	position: relative;
+}
+
+#characterMenuButton {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	text-align: center;
+}
+
+#characterMenuButton:hover {
+background: red;
+}
+
+#collapsable-nav {
+	text-align: center;
+}
+
+.dropdown-menu a:hover {
+	background-color: lightblue;
+	text-decoration: none;
+	font-size: 1.5em;;
+}
+
+.dropdown-menu {
+	text-align: center;
+	margin-top: 33px;
+}
+
+#character1Name, #character2Name {
+	margin: auto;
+	width: 150px;
+	text-align: center;
+}
+
+#battlearea {
+	height: 600px;
+	border: 1px solid black;
+	margin-top: 20px;
+	padding-top: 15px;
+	margin-bottom: 100px;
+	overflow: auto;
+	position: relative;
+}
+
+#player-select a:hover {
+
+}
+
+#attribute {
+	width: 100px;
+
+}
+
+#char1Str, #char1Dex, #char1Int, #char1Vit, #char1Agi, #char2Str, #char2Dex, #char2Int, #char2Vit, #char2Agi {
+	width: 50px;
+	padding: 5px;
+
+}
+
+.form-inline {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#fightform {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, 22px);
+	width: 380px;
+}
+
+#numberOfRoundsInput {
+	width: 65px;
+}
+
+#roundsFormGroup {
+		vertical-align: middle;
+}
+
+#scoreboard {
+	height: 100px;
+	width: 200px;
+	border: 3px solid black;
+	position: absolute;
+	bottom: -120px;
+	right: 0px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #2C3539;
+	color: #8A0707;
+}
+
+#character1scorename {
+	width: 50%;
+	height: 70%;
+	border: 1px solid black;
+	border-top: 3px solid black;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+#character2scorename {
+	width: 50%;
+	height: 70%;
+	border: 1px solid black;
+	border-top: 3px solid black;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+#char1scorename {
+	float: left;
+	margin-top: 25px;
+}
+
+#char2scorename {
+	float: right;
+	margin-top: 25px;
+}
+
+/**** For Large Devices ****/
+@media (min-width: 992px) {
+	.contestants {
+		margin: 0 20px;
+		height: 270px;
+		position: relative;
+	}
+}
+
+/**** For Medium Devices ****/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/**** For Small Devices ****/
+@media (max-width: 767px) {
+	#character2Name {
+		margin-right: 0;
+		margin-left: auto;
+}
+	.form-group {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+	#roundsInputGroup {
+	width: 190px;
+	margin: auto;
+	}
+}
+
+
+/**** For Extra Extra Small Devices ****/
+@media (max-width: 415px) {
+	#fightform {
+		bottom: -32px;
+		transform: translate(-50%, 22px);
+		width: 200px;
+}
+	#battlearea {
+		margin-top: 50px;
+	}
+
+	#scoreboard {
+		visibility: hidden;
+	}
+	#resetbutton {
+		float: right;
+	}
+/*	#character2Name {
+	margin-right: 0px;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	text-align: center;
+	width: 90px;
+}
+	#charNameDiv {
+		padding-right: 0;
+	}
+*/
