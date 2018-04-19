@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+#main-content {
+	margin-top: 50px;
+}
+
 strong {
 	color: green;
 }
@@ -77,10 +81,6 @@ background: red;
 	margin-bottom: 100px;
 	overflow: auto;
 	position: relative;
-}
-
-#player-select a:hover {
-
 }
 
 #attribute {
@@ -199,7 +199,7 @@ background: red;
 		bottom: -32px;
 		transform: translate(-50%, 22px);
 		width: 200px;
-}
+	}
 	#battlearea {
 		margin-top: 50px;
 	}
@@ -210,15 +210,4 @@ background: red;
 	#resetbutton {
 		float: right;
 	}
-/*	#character2Name {
-	margin-right: 0px;
-	top: 0;
-	right: 0;
-	z-index: 2;
-	text-align: center;
-	width: 90px;
 }
-	#charNameDiv {
-		padding-right: 0;
-	}
-*/
